@@ -1,4 +1,4 @@
-package com.organizacao.gestao;
+package com.organizacao.gestao.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,5 +12,6 @@ public class GestaoController {
 	public String hello() {
 		return "Olá";
 	}
+	
 	
 }
